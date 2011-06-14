@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 1312.0, -416.0, 889.0, 815.0 ],
+		"rect" : [ 0.0, 44.0, 892.0, 726.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1312.0, -416.0, 889.0, 815.0 ],
+		"defrect" : [ 0.0, 44.0, 892.0, 726.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -23,12 +23,40 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-44",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 93.066116, 196.806152, 150.0, 19.0 ],
+					"text" : "4.) stop recording"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-42",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 379.066101, 38.806152, 150.0, 19.0 ],
+					"text" : "3.) record trajectories"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-43",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.0, 413.0, 156.0, 67.0 ],
+					"patching_rect" : [ 159.0, 413.0, 158.0, 67.0 ],
 					"text" : "The type of the sink or the name of the source needs to be defined before the recording is started, because it will be stored in a NVT"
 				}
 
@@ -43,7 +71,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 423.0, 116.0, 41.0 ],
+					"patching_rect" : [ 39.0, 423.0, 118.0, 41.0 ],
 					"text" : "/sink.2/type speaker, /sink.1/type speaker, /source.1/name foo"
 				}
 
@@ -303,13 +331,13 @@
 ,
 					"patching_rect" : [ 602.599976, 181.900009, 204.099976, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
+						"default_fontface" : 0,
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"fontface" : 0,
+						"default_fontsize" : 12.0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -571,13 +599,13 @@
 ,
 					"patching_rect" : [ 615.299988, 549.200073, 180.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
+						"default_fontface" : 0,
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"fontface" : 0,
+						"default_fontsize" : 12.0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -742,7 +770,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 23.253876, 532.174316, 231.0, 41.0 ],
-					"text" : "recording of one source \nwith manual setup"
+					"text" : "3. Recording of one source \nwith manual setup"
 				}
 
 			}
@@ -914,8 +942,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.253876, 253.174316, 332.0, 24.0 ],
-					"text" : "recording of one source and two sinks"
+					"patching_rect" : [ 28.253876, 253.174316, 356.0, 24.0 ],
+					"text" : "2. Recording of one source and two sinks"
 				}
 
 			}
@@ -1135,8 +1163,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.066116, 187.806152, 150.0, 19.0 ],
-					"text" : "start/stop recording"
+					"patching_rect" : [ 93.066116, 176.806152, 150.0, 19.0 ],
+					"text" : "2.) start recording"
 				}
 
 			}
@@ -1149,8 +1177,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.815926, 59.789635, 118.444778, 19.0 ],
-					"text" : "define destination file"
+					"patching_rect" : [ 64.815926, 59.789635, 171.0, 19.0 ],
+					"text" : "1. ) define destination file"
 				}
 
 			}
@@ -1201,7 +1229,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.253876, 8.174316, 231.0, 24.0 ],
-					"text" : "recording of one source "
+					"text" : "1. Recording of one source "
 				}
 
 			}
