@@ -1,0 +1,5 @@
+XAED , symbol aed ;
+XOGL , symbol openGL ;
+XGDB , symbol db ;
+XQAT , symbol quaternion;
+XAXS , symbol axis;
