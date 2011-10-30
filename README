@@ -1,6 +1,12 @@
 This repository contains modules and components for writing and reading SpatDIF files in Jamoma.
-It uses the SDIF file format and requieres FTM: http://ftm.ircam.fr/index.php/Download
+It uses the SDIF file format.
 
+
+Requirements: 
+- Jamoma 0.5.4 and above: http://jamoma.org/download.html
+- FTM beta 22 and above:  http://ftm.ircam.fr/index.php/Download
+
+Contact:
 More to SpatDIF: http://spatdif.org
 contact: nils _AT_ icsi _DOT_ berkeley _DOT_ edu 
 
